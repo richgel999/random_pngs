@@ -16,3 +16,5 @@ has_key is 1 if the PNG uses a TRNS chunk for colorkey transparency
 uses_pal_alpha is 1 if a palettized PNG uses alpha transparency
 
 interlace_method is 1 if the PNG uses adam7 interlacing
+
+The pixel data is entirely psuedo-random.
