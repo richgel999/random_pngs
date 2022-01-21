@@ -17,4 +17,4 @@ uses_pal_alpha is 1 if a palettized PNG uses alpha transparency
 
 interlace_method is 1 if the PNG uses adam7 interlacing
 
-The pixel data is entirely psuedo-random.
+The pixel data and palettes are psuedo-random.
