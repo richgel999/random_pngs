@@ -1,5 +1,5 @@
 # random_pngs
-A collection of 2,943 random PNG test files for validation and fuzzing purposes. The filename format is:
+A collection of 2,943 random PNG test files for validation and fuzzing purposes, generating with [lodepng](https://lodev.org/lodepng/). The filename format is:
 
 ```
 sprintf(filename, "rand_%u_%u_%u_%u_%u_%u_%u.png", width, height, bit_depth, ct, has_key, uses_pal_alpha, interlace_method);
