@@ -1,5 +1,7 @@
 # random_pngs
-A collection of 2,943 random PNG test files for validation and fuzzing purposes, generating with [lodepng](https://lodev.org/lodepng/). Please note that lodepng's PNG encoder is highly aggressive about optimizing the colortype/bpp/used PNG features used for encoding, so the colortype/bpp/etc. in the filename only indicates the options the generation code passed into lodepng. Also, the TRNS chunk isn't always used when it's indicated in the filename. I'm working on fixing this.
+A collection of 2,943 random PNG test files for validation and fuzzing purposes, generating with [lodepng](https://lodev.org/lodepng/). 
+
+Please note that lodepng's PNG encoder is highly aggressive about optimizing the colortype/bpp/used PNG features used for encoding. I disabled lodepng encoder's "auto_convert" option when generating these PNG's, but I can't guarantee that the filename attributes and the used PNG always match. This is a work in progress, but I hope others find this useful. I will release the cpp test app that generates this set soon.
 
 The filename format is:
 
