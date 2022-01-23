@@ -1,5 +1,5 @@
 # random_pngs
-A collection of 2,943 random PNG test files for validation and fuzzing purposes, generating with [lodepng](https://lodev.org/lodepng/). 
+A collection of nearly 3,000 random PNG test files for validation and fuzzing purposes, generating with [lodepng](https://lodev.org/lodepng/). 
 
 Please note that lodepng's PNG encoder is highly aggressive about optimizing the colortype/bpp/used PNG features used for encoding. I disabled lodepng encoder's "auto_convert" option when generating these PNG's, but I can't guarantee that the filename attributes and the used PNG features/options always match. This is a work in progress, but I hope others find this useful. I will release the cpp test app that generates this set soon.
 
